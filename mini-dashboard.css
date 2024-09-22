@@ -29,31 +29,30 @@ body {
     border-radius: 0.5em;
 }
 
+.photo img {
+    border-radius: 50%;
+    width: 80px;
+}
+
 .person {
     display: flex;
     flex-wrap: nowrap;
-    padding: 1.3em 1.5em;
-}
-
-.photo img {
-    border-radius: 50%;
-    width: 120px;
 }
 
 .name-and-designation {
-    margin-left: 0.5em;
-    padding: 0 0.7em;
+    margin-left: 0.9em;
+    padding: 0 0.5em 0 0;
 }
 
 .name {
     font-weight: 500;
-    font-size: 3rem;
+    font-size: 1.5rem;
     color: var(--primary-button-bg);
     transition: color 0.3s ease;
 }
 
 .deg {
-    font-size: 1.5rem;
+    font-size: 0.75rem;
 }
 
 .button-boxes {
@@ -66,7 +65,7 @@ body {
 .button {
     width: 8em;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 0.6rem;
     padding: 0.5em;
     border-radius: 0.2em;
     cursor: pointer;
@@ -93,7 +92,7 @@ body {
     display: flex;
     flex-wrap: nowrap;
     gap: 0.3em;
-    font-size: 1.2rem;
+    font-size: 0.6rem;
 }
 
 .label-dot {
@@ -105,7 +104,7 @@ body {
 }
 
 .value {
-    font-size: 2.5rem;
+    font-size: 1.75rem;
     color: var(--primary-button-bg);
     margin-bottom: 0.2em;
     transition: color 0.3s ease;
