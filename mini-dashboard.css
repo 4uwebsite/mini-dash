@@ -1,0 +1,147 @@
+:root {
+    --main-bg: #EFEFEF;
+    --box-bg: #fff;
+    --primary-button-bg: #243277;
+    --primary-button-txt: #fff;
+    --secondary-button-bg: #DBD9E4;
+    --secondary-button-txt: #5F6274;
+}
+
+* {
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: var(--main-bg);
+}
+
+.main-container {
+    display: flex;
+    margin-top: 2em;
+}
+
+.box {
+    background-color: var(--box-bg);
+    padding: 0.5em;
+    border-radius: 0.5em;
+}
+
+.person {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 1.3em 1.5em;
+}
+
+.photo img {
+    border-radius: 50%;
+    width: 120px;
+}
+
+.name-and-designation {
+    margin-left: 0.5em;
+    padding: 0 0.7em;
+}
+
+.name {
+    font-weight: 500;
+    font-size: 3rem;
+    color: var(--primary-button-bg);
+    transition: color 0.3s ease;
+}
+
+.deg {
+    font-size: 1.5rem;
+}
+
+.button-boxes {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0.5em 0;
+    background-color: var(--main-bg);
+}
+
+.button {
+    width: 8em;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 0.5em;
+    border-radius: 0.2em;
+    cursor: pointer;
+}
+
+.profile {
+    background-color: var(--primary-button-bg);
+    color: var(--primary-button-txt);
+    transition: background-color 0.3s ease;
+}
+
+.status {
+    background-color: var(--secondary-button-bg);
+    color: var(--secondary-button-txt);
+}
+
+.trip-type {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 0.8em;
+}
+
+.trip-type-label {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 0.3em;
+    font-size: 1.2rem;
+}
+
+.label-dot {
+    background-color: var(--primary-button-bg);
+    width: 0.7em;
+    height: 0.7em;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+}
+
+.value {
+    font-size: 2.5rem;
+    color: var(--primary-button-bg);
+    margin-bottom: 0.2em;
+    transition: color 0.3s ease;
+}
+
+.color-boxes {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 10em;
+    margin-top: 2em;
+}
+
+.color-box {
+    width: 1.8em;
+    height: 1.8em;
+    border-radius: 50%;
+    border: 4px white solid;
+    cursor: pointer;
+}
+
+.col1 {
+    background-color: #243277;
+}
+
+.col2 {
+    background-color: #553772;
+}
+
+.col3 {
+    background-color: #8f3b76;
+}
+
+.col4 {
+    background-color: #c7417b;
+}
+
+.col5 {
+    background-color: #f5487f;
+}
